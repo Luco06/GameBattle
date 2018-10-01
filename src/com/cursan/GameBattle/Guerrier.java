@@ -16,6 +16,6 @@ public class Guerrier extends Caracter {
 
     @Override
     protected String jouer(int choix) {
-        return null;
+        return j;
     }
 }
