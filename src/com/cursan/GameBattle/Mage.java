@@ -19,7 +19,7 @@ public class Mage extends Caracter {
     Mage(int numJoueur, int force, int agilite, int intelligence) {
         super(numJoueur, force, agilite, intelligence);
         type = "Mage";
-        cri = "Abracadabra";
+        cri = "Abracadabraaa";
         vieMax = vie;
     }
 
@@ -40,10 +40,10 @@ public class Mage extends Caracter {
         switch (choix) {
             case 1:
                 adversaire.retraitVie(intelligence);
-                phrase = phrase + nom + " utilise Boule de feu et inflige" + intelligence + " de dégâts";
+                phrase = phrase + nom + " utilise boule de feu et inflige " + intelligence + " de dégâts";
                 break;
             case 2:
-                phrase = phrase + nom + " utilise soin et gagne";
+                phrase = phrase + nom + " utilise Soin et gagne ";
                 if ((intelligence * 2) + vie > vieMax) {
                     phrase = phrase + (vieMax - vie) + " de vitalité";
                     vie = vieMax;
