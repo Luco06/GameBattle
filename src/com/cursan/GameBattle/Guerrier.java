@@ -12,10 +12,12 @@ public class Guerrier extends Caracter {
      */
     Guerrier(int numJoueur, int force, int agilite, int intelligence) {
         super(numJoueur, force, agilite, intelligence);
+        type = "Guerrier";
+        cri = "Wouarggg";
     }
 
     @Override
     protected String jouer(int choix) {
-        return j;
+        return null;
     }
 }
