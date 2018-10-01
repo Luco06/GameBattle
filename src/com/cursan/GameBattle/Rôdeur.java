@@ -14,6 +14,7 @@ public class Rôdeur extends Caracter {
         super(numJoueur, force, agilite, intelligence);
         type = "Rôdeur";
         cri = "Houhouu";
+
     }
     /**
      * En fonction du choix, effectue les actions propres à la classe du joueur Rôdeur
