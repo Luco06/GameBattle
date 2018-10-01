@@ -7,11 +7,11 @@ public class Main {
 
     public static void main(String[] args) {
         int numJoueur = 1;
-        Caracter caracter1 = creerJoueur(numJoueur);
-        System.out.println(Joueur1.ToString());
+        Caracter Joueur1 = creerJoueur(numJoueur);
+        System.out.println(Joueur1.toString());
         numJoueur++;
-        Caracter caracter2 = creerJoueur(numJoueur);
-        System.out.println(Joueur2.TosString);
+        Caracter Joueur2 = creerJoueur(numJoueur);
+        System.out.println(Joueur2.toString());
         Joueur1.setAdversaire(Joueur2);
         Joueur2.setAdversaire(Joueur1);
         Joueur1.activeJoueur();
@@ -22,31 +22,34 @@ public class Main {
      * @return Joueur créé grâce au caractéristique donner.
      */
     private static Caracter creerJoueur(int numJoueur) {
-        Joueur J;
-        int type, niveau, force, agilite, inteligence;
+        Caracter j;
+        int type, niveau, force, agilite, intelligence;
         System.out.println(("Création du personnage du Joeur" + numJoueur));
         type = demande("Veuillez choisir la classe de votre personnage (1 : Guerrier, 2 : Rôdeur, 3 : Mage)", 1, 3);
         do {
-            niveau = demande("Niveau du personnage ?", 1);
-            force = demande("Force du personnage ?", 0);
-            agilite = demande("Agilite du personnage ?", 0);
-            inteligence = demande("Intelligence du personnage ?", 0);
-            if (force + agilite + inteligence != niveau) {
+            niveau = demande("Niveau du personnage ?", 1, 100);
+            force = demande("Force du personnage ?", 0, 100);
+            agilite = demande("Agilite du personnage ?", 0, 100);
+            intelligence = demande("Intelligence du personnage ?", 0, 100);
+            if (force + agilite + intelligence != niveau) {
                 System.out.println("Attention le total des caractéristique doit être égal au niveau du joueur.");
             }
-        } while (force + agilite + inteligence != niveau);
+        } while (force + agilite + intelligence != niveau);
         switch (type) {
             case 1:
-                J = new Guerrier(numJoueur, force, agilite, inteligence);
+                j = new Guerrier(numJoueur, force, agilite, intelligence);
                 break;
             case 2:
-                J = new Rôdeur(numJoueur, force, agilite, inteligence);
+                j = new Rôdeur(numJoueur, force, agilite, intelligence);
                 break;
             case 3:
-                J = new Mage(numJoueur, force, agilite, inteligence);
+                j = new Mage(numJoueur, force, agilite, intelligence);
                 break;
+                default:
+                    j = new Mage(numJoueur, force, agilite, intelligence);
+                    break;
         }
-        return J;
+        return j;
     }
 
     /**

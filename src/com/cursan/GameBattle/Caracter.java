@@ -2,9 +2,9 @@ package com.cursan.GameBattle;
 
 public abstract class Caracter {
 
-    private String nom, cri, type;
-    private int niveau, vie, force, agilite, intelligence;
-    private Caracter adversaire;
+    protected String nom, cri, type;
+    protected int niveau, vie, force, agilite, intelligence;
+    protected Caracter adversaire;
 
     /**
      * Constructeur de Joueur
@@ -24,7 +24,7 @@ public abstract class Caracter {
     }
 
     /**
-     * Début du tour du joueur. vérifie qu'il lui reste encore de la vie pour jouer sinon fin du jeu.
+     * Début du tour du joueur. vérifie qu'il lui a encore de la vie pour jouer sinon fin du jeu.
      */
     public void activeJoueur() {
         int choix;

@@ -2,21 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b719ca04-d856-4d9d-bf03-a4fc48d7c342" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameBattle.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/GameBattle/com/cursan/GameBattle/Caracter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/GameBattle/com/cursan/GameBattle/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cursan/GameBattle/Caracter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cursan/GameBattle/Guerrier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cursan/GameBattle/Mage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cursan/GameBattle/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cursan/GameBattle/Rôdeur.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cursan/GameBattle/Choice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameBattle/com/cursan/GameBattle/Caracter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GameBattle/com/cursan/GameBattle/Caracter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameBattle/com/cursan/GameBattle/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cursan/GameBattle/Caracter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cursan/GameBattle/Caracter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cursan/GameBattle/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cursan/GameBattle/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,15 +40,15 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="4527" />
+          <entry key="java" value="4696" />
           <entry key="md" value="2" />
-          <entry key="txt" value="32" />
+          <entry key="txt" value="126" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4527" />
-          <entry key="PLAIN_TEXT" value="34" />
+          <entry key="JAVA" value="4696" />
+          <entry key="PLAIN_TEXT" value="128" />
         </counts>
       </usages-collector>
     </session>
@@ -68,8 +58,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/cursan/GameBattle/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="39" column="30" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
+            <state relative-caret-position="258">
+              <caret line="39" column="74" lean-forward="true" selection-start-line="39" selection-start-column="74" selection-end-line="39" selection-end-column="74" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,56 +70,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/cursan/GameBattle/Caracter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
+            <state relative-caret-position="126">
+              <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
               <folding>
                 <element signature="e#1608#1609#0" expanded="true" />
                 <element signature="e#1649#1650#0" expanded="true" />
                 <element signature="e#2124#2125#0" expanded="true" />
                 <element signature="e#2167#2168#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/cursan/GameBattle/Guerrier.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-              <folding>
-                <element signature="e#126#127#0" expanded="true" />
-                <element signature="e#153#154#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/cursan/GameBattle/Mage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-              <folding>
-                <element signature="e#371#372#0" expanded="true" />
-                <element signature="e#433#434#0" expanded="true" />
-                <element signature="e#122#123#0" expanded="true" />
-                <element signature="e#149#150#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/cursan/GameBattle/Rôdeur.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-              <folding>
-                <element signature="e#375#376#0" expanded="true" />
-                <element signature="e#437#438#0" expanded="true" />
-                <element signature="e#124#125#0" expanded="true" />
-                <element signature="e#151#152#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -155,13 +102,19 @@
         <option value="$PROJECT_DIR$/test/com/cursan/GameBattle/ChoiceTest.java" />
         <option value="$PROJECT_DIR$/src/com/cursan/GameBattle/Choice.java" />
         <option value="$PROJECT_DIR$/test/com/cursan/GameBattle/CaracterTest.java" />
-        <option value="$PROJECT_DIR$/src/com/cursan/GameBattle/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/cursan/GameBattle/Caracter.java" />
         <option value="$PROJECT_DIR$/src/com/cursan/GameBattle/Guerrier.java" />
         <option value="$PROJECT_DIR$/src/com/cursan/GameBattle/Mage.java" />
         <option value="$PROJECT_DIR$/src/com/cursan/GameBattle/Rôdeur.java" />
+        <option value="$PROJECT_DIR$/src/com/cursan/GameBattle/Caracter.java" />
+        <option value="$PROJECT_DIR$/src/com/cursan/GameBattle/Main.java" />
       </list>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="211" />
@@ -219,7 +172,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538407645856" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538412104440" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
   </component>
@@ -278,14 +231,21 @@
       <option name="project" value="LOCAL" />
       <updated>1538320619038</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add class &quot;Mage, Rôdeur and Guerrier&quot;.&#10;Add class and code Caracter.&#10;Add code Main">
+      <created>1538407748803</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1538407748803</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="211" y="45" width="1562" height="880" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2563249" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2563249" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -295,7 +255,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3297587" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3297587" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -305,13 +265,13 @@
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3297587" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24966711" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.32956058" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -319,7 +279,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add caracter class and fonctions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add caracter class and fonctions" />
+    <MESSAGE value="Add class &quot;Mage, Rôdeur and Guerrier&quot;.&#10;Add class and code Caracter.&#10;Add code Main" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add class &quot;Mage, Rôdeur and Guerrier&quot;.&#10;Add class and code Caracter.&#10;Add code Main" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -334,19 +299,6 @@
     <entry file="file://$PROJECT_DIR$/src/com/cursan/GameBattle/Rodeur.java" />
     <entry file="file://$PROJECT_DIR$/test/com/cursan/GameBattle/CaracterTest.java">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cursan/GameBattle/Caracter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
-          <folding>
-            <element signature="e#1608#1609#0" expanded="true" />
-            <element signature="e#1649#1650#0" expanded="true" />
-            <element signature="e#2124#2125#0" expanded="true" />
-            <element signature="e#2167#2168#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/cursan/GameBattle/Guerrier.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -385,10 +337,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cursan/GameBattle/Caracter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          <folding>
+            <element signature="e#1608#1609#0" expanded="true" />
+            <element signature="e#1649#1650#0" expanded="true" />
+            <element signature="e#2124#2125#0" expanded="true" />
+            <element signature="e#2167#2168#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/cursan/GameBattle/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="39" column="30" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
+        <state relative-caret-position="258">
+          <caret line="39" column="74" lean-forward="true" selection-start-line="39" selection-start-column="74" selection-end-line="39" selection-end-column="74" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
