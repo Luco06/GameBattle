@@ -28,9 +28,9 @@ public class Main {
         type = demande("Veuillez choisir la classe de votre personnage (1 : Guerrier, 2 : Rôdeur, 3 : Mage)", 1, 3);
         do {
             niveau = demande("Niveau du personnage ?", 1, 100);
-            force = demande("Force du personnage ?", 0, 100);
-            agilite = demande("Agilite du personnage ?", 0, 100);
-            intelligence = demande("Intelligence du personnage ?", 0, 100);
+            force = demande("Force du personnage ?", 0);
+            agilite = demande("Agilite du personnage ?", 0);
+            intelligence = demande("Intelligence du personnage ?", 0);
             if (force + agilite + intelligence != niveau) {
                 System.out.println("Attention le total des caractéristique doit être égal au niveau du joueur.");
             }

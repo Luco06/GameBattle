@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b719ca04-d856-4d9d-bf03-a4fc48d7c342" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/test/com/cursan/GameBattle/RôdeurTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cursan/GameBattle/Guerrier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cursan/GameBattle/Guerrier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/com/cursan/GameBattle/GuerrierTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/cursan/GameBattle/GuerrierTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameBattle/com/cursan/GameBattle/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GameBattle/com/cursan/GameBattle/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cursan/GameBattle/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cursan/GameBattle/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cursan/GameBattle/Rôdeur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cursan/GameBattle/Rôdeur.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,27 +28,27 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="13" />
+          <entry key="java" value="17" />
           <entry key="md" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="13" />
+          <entry key="JAVA" value="17" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="5476" />
+          <entry key="java" value="5838" />
           <entry key="md" value="2" />
-          <entry key="txt" value="229" />
+          <entry key="txt" value="271" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5476" />
-          <entry key="PLAIN_TEXT" value="231" />
+          <entry key="JAVA" value="5838" />
+          <entry key="PLAIN_TEXT" value="273" />
         </counts>
       </usages-collector>
     </session>
@@ -56,8 +58,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/cursan/GameBattle/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-838">
-              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+            <state relative-caret-position="317">
+              <caret line="40" column="22" lean-forward="true" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -66,34 +68,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/cursan/GameBattle/Caracter.java">
+        <entry file="file://$PROJECT_DIR$/src/com/cursan/GameBattle/Rôdeur.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-253">
-              <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+            <state relative-caret-position="332">
+              <caret line="32" column="55" selection-start-line="32" selection-start-column="55" selection-end-line="32" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/com/cursan/GameBattle/RôdeurTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="401">
+              <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
               <folding>
-                <element signature="e#1608#1609#0" expanded="true" />
-                <element signature="e#1649#1650#0" expanded="true" />
-                <element signature="e#2124#2125#0" expanded="true" />
-                <element signature="e#2167#2168#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/cursan/GameBattle/Guerrier.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="31" column="42" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/com/cursan/GameBattle/GuerrierTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+            <state relative-caret-position="418">
+              <caret line="25" column="5" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="25" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -122,11 +121,12 @@
         <option value="$PROJECT_DIR$/src/com/cursan/GameBattle/Choice.java" />
         <option value="$PROJECT_DIR$/test/com/cursan/GameBattle/CaracterTest.java" />
         <option value="$PROJECT_DIR$/src/com/cursan/GameBattle/Mage.java" />
-        <option value="$PROJECT_DIR$/src/com/cursan/GameBattle/Rôdeur.java" />
         <option value="$PROJECT_DIR$/src/com/cursan/GameBattle/Caracter.java" />
-        <option value="$PROJECT_DIR$/src/com/cursan/GameBattle/Main.java" />
         <option value="$PROJECT_DIR$/src/com/cursan/GameBattle/Guerrier.java" />
         <option value="$PROJECT_DIR$/test/com/cursan/GameBattle/GuerrierTest.java" />
+        <option value="$PROJECT_DIR$/src/com/cursan/GameBattle/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/cursan/GameBattle/Rôdeur.java" />
+        <option value="$PROJECT_DIR$/test/com/cursan/GameBattle/RôdeurTest.java" />
       </list>
     </option>
   </component>
@@ -182,6 +182,12 @@
               <item name="GameBattle" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="GameBattle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GameBattle" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="GameBattle" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -192,7 +198,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538415891926" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538417598147" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
   </component>
@@ -216,17 +222,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GuerrierTest.testGuerrierJouerCoupSpecial">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.cursan.GameBattle.Main" />
-      <module name="GameBattle" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.RôdeurTest">
     <configuration name="GuerrierTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GameBattle" />
       <extension name="coverage">
@@ -289,20 +285,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RôdeurTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GameBattle" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cursan.GameBattle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cursan.GameBattle" />
+      <option name="MAIN_CLASS_NAME" value="com.cursan.GameBattle.RôdeurTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.GuerrierTest" />
       <item itemvalue="JUnit.GuerrierTest.testGuerrierJouerCoupClassique" />
       <item itemvalue="JUnit.GuerrierTest.testGuerrierDescription" />
       <item itemvalue="JUnit.GuerrierTest.testGuerrierJouerCoupSpecial" />
+      <item itemvalue="JUnit.RôdeurTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RôdeurTest" />
         <item itemvalue="JUnit.GuerrierTest.testGuerrierJouerCoupSpecial" />
         <item itemvalue="JUnit.GuerrierTest.testGuerrierJouerCoupClassique" />
         <item itemvalue="JUnit.GuerrierTest" />
         <item itemvalue="JUnit.GuerrierTest.testGuerrierDescription" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -352,31 +362,17 @@
       <option name="project" value="LOCAL" />
       <updated>1538412979207</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add 2 test Guerrier">
+      <created>1538415936921</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1538415936921</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GuerrierTest_testGuerrierJouerCoupClassique - 2018.10.01 at 19h 34m 48s.xml">
-      <configuration name="GuerrierTest.testGuerrierJouerCoupClassique" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GuerrierTest_testGuerrierJouerCoupClassique - 2018.10.01 at 19h 35m 25s.xml">
-      <configuration name="GuerrierTest.testGuerrierJouerCoupClassique" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GuerrierTest_testGuerrierJouerCoupSpecial - 2018.10.01 at 19h 35m 36s.xml">
-      <configuration name="GuerrierTest.testGuerrierJouerCoupSpecial" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GuerrierTest_testGuerrierJouerCoupSpecial - 2018.10.01 at 19h 36m 18s.xml">
-      <configuration name="GuerrierTest.testGuerrierJouerCoupSpecial" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GuerrierTest_testGuerrierJouerCoupSpecial - 2018.10.01 at 19h 36m 48s.xml">
-      <configuration name="GuerrierTest.testGuerrierJouerCoupSpecial" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GuerrierTest_testGuerrierJouerCoupClassique - 2018.10.01 at 19h 37m 13s.xml">
-      <configuration name="GuerrierTest.testGuerrierJouerCoupClassique" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GuerrierTest - 2018.10.01 at 19h 37m 28s.xml">
-      <configuration name="GuerrierTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="GuerrierTest_testGuerrierJouerCoupClassique - 2018.10.01 at 19h 38m 15s.xml">
       <configuration name="GuerrierTest.testGuerrierJouerCoupClassique" configurationId="JUnit" />
     </history-entry>
@@ -385,6 +381,27 @@
     </history-entry>
     <history-entry file="GuerrierTest_testGuerrierJouerCoupClassique - 2018.10.01 at 19h 40m 34s.xml">
       <configuration name="GuerrierTest.testGuerrierJouerCoupClassique" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GuerrierTest_testGuerrierJouerCoupClassique - 2018.10.01 at 19h 41m 14s.xml">
+      <configuration name="GuerrierTest.testGuerrierJouerCoupClassique" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GuerrierTest_testGuerrierJouerCoupClassique - 2018.10.01 at 19h 41m 40s.xml">
+      <configuration name="GuerrierTest.testGuerrierJouerCoupClassique" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GuerrierTest_testGuerrierJouerCoupClassique - 2018.10.01 at 19h 41m 54s.xml">
+      <configuration name="GuerrierTest.testGuerrierJouerCoupClassique" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GuerrierTest_testGuerrierJouerCoupClassique - 2018.10.01 at 19h 42m 34s.xml">
+      <configuration name="GuerrierTest.testGuerrierJouerCoupClassique" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GuerrierTest_testGuerrierJouerCoupSpecial - 2018.10.01 at 19h 44m 35s.xml">
+      <configuration name="GuerrierTest.testGuerrierJouerCoupSpecial" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GuerrierTest_testGuerrierJouerCoupSpecial - 2018.10.01 at 19h 44m 54s.xml">
+      <configuration name="GuerrierTest.testGuerrierJouerCoupSpecial" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RôdeurTest - 2018.10.01 at 20h 06m 56s.xml">
+      <configuration name="RôdeurTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -429,7 +446,8 @@
     <MESSAGE value="Correction du code de Main et de Caracter" />
     <MESSAGE value="Add test Description de Guerrier" />
     <MESSAGE value="Update Description Guerrier" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Description Guerrier" />
+    <MESSAGE value="Add 2 test Guerrier" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add 2 test Guerrier" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -462,22 +480,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cursan/GameBattle/Rôdeur.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-          <folding>
-            <element signature="e#375#376#0" expanded="true" />
-            <element signature="e#437#438#0" expanded="true" />
-            <element signature="e#124#125#0" expanded="true" />
-            <element signature="e#151#152#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/cursan/GameBattle/Caracter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-253">
+        <state relative-caret-position="136">
           <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
           <folding>
             <element signature="e#1608#1609#0" expanded="true" />
@@ -490,8 +495,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/cursan/GameBattle/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-838">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        <state relative-caret-position="317">
+          <caret line="40" column="22" lean-forward="true" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -500,15 +505,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/cursan/GameBattle/Guerrier.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="31" column="42" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
+        <state relative-caret-position="364">
+          <caret line="35" column="99" selection-start-line="35" selection-start-column="99" selection-end-line="35" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cursan/GameBattle/Rôdeur.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="32" column="55" selection-start-line="32" selection-start-column="55" selection-end-line="32" selection-end-column="55" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/com/cursan/GameBattle/GuerrierTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+        <state relative-caret-position="418">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/cursan/GameBattle/RôdeurTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
